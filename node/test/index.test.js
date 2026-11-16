@@ -23,4 +23,5 @@ test("GET /healthy", async () => {
   assert.deepStrictEqual(await res.json(), { status: "healthy" });
 });
 
- console.log("All tests passed!");
+console.log("All tests passed!");
+console.log("testouu!");
