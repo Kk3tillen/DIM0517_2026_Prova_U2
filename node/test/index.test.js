@@ -22,3 +22,5 @@ test("GET /healthy", async () => {
   assert.strictEqual(res.status, 200);
   assert.deepStrictEqual(await res.json(), { status: "healthy" });
 });
+
+console.log("Teste pipe!");
