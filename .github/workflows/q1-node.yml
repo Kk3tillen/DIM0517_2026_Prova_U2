@@ -3,7 +3,6 @@ name: Node - Questão 1
 on:
   push:
     branches:
-      - 'feature/**'
     paths:
       - 'node/src/**'
       - 'node/Dockerfile'
