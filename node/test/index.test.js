@@ -24,3 +24,5 @@ test("GET /healthy", async () => {
 });
 
 console.log("Teste pipe!");
+
+console.log("Teste pipe 2!");
